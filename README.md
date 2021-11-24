@@ -34,7 +34,7 @@ You also have to create .env file in the root directory with your own OpenWeathe
 REACT_APP_API_KEY=your_key
 ```
 
-The app is configured with Webpack in a way that just lets you open it with hot reload using:
+Then to start the app:
 ```
 npm start
 ```
