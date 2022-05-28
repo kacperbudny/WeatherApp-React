@@ -21,11 +21,6 @@ const Favourites: React.FC<Props> = ({
   const containerRef = useRef<HTMLDivElement>(null);
 
   const closePanel = useCallback(() => {
-    const scrollY = document.body.style.top;
-    document.body.style.position = "";
-    document.body.style.top = "";
-    window.scrollTo(0, parseInt(scrollY || "0") * -1);
-
     setTimeout(() => {
       containerRef.current!.style.right = "calc(-100% - 100px)";
       overlayRef.current!.style.opacity = "0.0";
@@ -33,6 +28,10 @@ const Favourites: React.FC<Props> = ({
 
     setTimeout(() => {
       onClose();
+      const scrollY = document.body.style.top;
+      document.body.style.position = "";
+      document.body.style.top = "";
+      window.scrollTo(0, parseInt(scrollY || "0") * -1);
     }, 500);
   }, [onClose]);
 
