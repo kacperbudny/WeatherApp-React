@@ -88,7 +88,9 @@ const App: React.FC = () => {
   }, [city, isCityInFavourites]);
 
   const changeCityHandler = (cityName: string) => {
-    setCity(cityName);
+    const cityNameStartingWithCapitalLetter =
+      cityName.charAt(0).toUpperCase() + cityName.slice(1);
+    setCity(cityNameStartingWithCapitalLetter);
   };
 
   const closeNotificationHandler = () => {
