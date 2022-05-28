@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/WeatherApp-React/static/css/main.b56a6546.chunk.css",
+    "main.js": "/WeatherApp-React/static/js/main.ce08ec67.chunk.js",
+    "main.js.map": "/WeatherApp-React/static/js/main.ce08ec67.chunk.js.map",
+    "runtime-main.js": "/WeatherApp-React/static/js/runtime-main.ddd9f7f1.js",
+    "runtime-main.js.map": "/WeatherApp-React/static/js/runtime-main.ddd9f7f1.js.map",
+    "static/js/2.8fe63fcd.chunk.js": "/WeatherApp-React/static/js/2.8fe63fcd.chunk.js",
+    "static/js/2.8fe63fcd.chunk.js.map": "/WeatherApp-React/static/js/2.8fe63fcd.chunk.js.map",
+    "index.html": "/WeatherApp-React/index.html",
+    "static/css/main.b56a6546.chunk.css.map": "/WeatherApp-React/static/css/main.b56a6546.chunk.css.map",
+    "static/js/2.8fe63fcd.chunk.js.LICENSE.txt": "/WeatherApp-React/static/js/2.8fe63fcd.chunk.js.LICENSE.txt",
+    "static/media/cloud.c836b080.svg": "/WeatherApp-React/static/media/cloud.c836b080.svg",
+    "static/media/fog.abd7c205.svg": "/WeatherApp-React/static/media/fog.abd7c205.svg",
+    "static/media/rain.42fd10f7.svg": "/WeatherApp-React/static/media/rain.42fd10f7.svg",
+    "static/media/snow.c861e27d.svg": "/WeatherApp-React/static/media/snow.c861e27d.svg",
+    "static/media/storm.c223c679.svg": "/WeatherApp-React/static/media/storm.c223c679.svg",
+    "static/media/sun.2a54c9b1.svg": "/WeatherApp-React/static/media/sun.2a54c9b1.svg",
+    "static/media/unknown.ebf6b6fe.svg": "/WeatherApp-React/static/media/unknown.ebf6b6fe.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ddd9f7f1.js",
+    "static/js/2.8fe63fcd.chunk.js",
+    "static/css/main.b56a6546.chunk.css",
+    "static/js/main.ce08ec67.chunk.js"
+  ]
+}
